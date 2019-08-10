@@ -7,7 +7,7 @@ export default class BackCard extends Component {
     render(props){
         console.log("backcard", this.props.meme)
         return(
-            <div id='back' className="back">
+            <div  className="back">
                <img src={`${this.props.meme}`}/>
             </div>
         )
